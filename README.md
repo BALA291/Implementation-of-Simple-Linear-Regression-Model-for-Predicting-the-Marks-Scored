@@ -79,7 +79,8 @@ print("RMSE= ",rmse)
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+### 1.Dataset
+![o1](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/94a2a5f3-c044-494f-8380-bb40172f3475)
 
 
 ## Result:
