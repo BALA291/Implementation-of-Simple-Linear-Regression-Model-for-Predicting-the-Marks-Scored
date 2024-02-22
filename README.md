@@ -82,6 +82,26 @@ print("RMSE= ",rmse)
 ### 1.Dataset
 ![o1](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/94a2a5f3-c044-494f-8380-bb40172f3475)
 
+### 2.Head
+![head](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/e4d0146f-da6c-482a-912d-2fa4a28c9f75)
+
+### 3.Tail
+![tail](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/f89a2e9e-a82b-4937-9b4c-fee11dbda433)
+
+### 4.X and Y values
+![x and y](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/b7f70089-174d-4798-b1e6-a4f35c206e87)
+
+### 5.Predicted values
+![predicted](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/aad7bf35-798d-4614-b26f-1b856579dd56)
+
+### 6. Error calculation
+![errors](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/f450f215-771e-4069-b429-73b79a8119cc)
+
+### 7.Training set
+![training](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/668cb9c9-dac3-4e6c-8b34-b5f15e8be277)
+
+### 8. Testing set
+![testing](https://github.com/BALA291/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120717501/6a941bf6-5397-430b-8a70-1e8d7d3a6bc6)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
