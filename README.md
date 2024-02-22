@@ -27,6 +27,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: BALAMURUGAN B
 RegisterNumber: 212222230016
 
+#IMPORT REQUIRED LIBRARIES
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,28 +41,34 @@ x = df.iloc[:,:-1].values
 print(x)
 y = df.iloc[:,1].values
 print(y)
+#SPLITTING DATASET INTO TRAINING AND TESTING DATA
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=1/3,random_state=0)
 regressor=LinearRegression()
 regressor.fit(x_train,y_train)
 y_pred = regressor.predict(x_test)
 print(y_pred)
 print(y_test)
+#GRAPH PLOT FOR TRAINING DATA
 plt.scatter(x_train,y_train,color='red')
 plt.plot(x_train,regressor.predict(x_train),color='black')
 plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+#GRAPH PLOT FOR TESTING DATA
 plt.scatter(x_test,y_test,color='red')
 plt.plot(x_test,y_pred,color='black')
 plt.title('Hours vs Scores(Testing set)')
 plt.xlabel('Hours')
 plt.ylabel('Scores')
 plt.show()
+#CALCULATE MEAN SQUARED ERROR
 mse=mean_squared_error(y_test,y_pred)
 print('MSE = ',mse)
+#CALCULATE MEAN ABSOLUTE ERROR
 mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
+#CALCULATE ROOT MEAN SQUARED ERROR
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
 
